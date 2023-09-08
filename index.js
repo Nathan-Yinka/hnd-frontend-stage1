@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
 
     currentDayOfTheWeek.textContent = `Current Day of the Week: ${dayOfWeek}`;
     git.textContent = "Github Link"
+    git.href = 'https://github.com/Nathan-Yinka/hnd-frontend-stage1'
 
     const currentUTC = currentDate.getTime();
     currentUTCTime.textContent = `Current UTC Time (Milliseconds): ${currentUTC}`;
