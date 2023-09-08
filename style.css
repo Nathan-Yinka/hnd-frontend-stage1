@@ -5,6 +5,7 @@ body {
     place-content: center;
     height: 100vh;
     background-color: wheat;
+    overflow:auto;
 }
 
 .container {

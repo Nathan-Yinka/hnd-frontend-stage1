@@ -19,7 +19,13 @@ document.addEventListener("DOMContentLoaded", ()=> {
     git.textContent = "Github Link"
     git.href = 'https://github.com/Nathan-Yinka/hnd-frontend-stage1'
 
-    const currentUTC = currentDate.getTime();
-    currentUTCTime.textContent = `Current UTC Time (Milliseconds): ${currentUTC}`;
+    function time(){
+    const currentUTCTimed = Date.now()
+    currentUTCTime.textContent = `Current UTC Time (Milliseconds): ${currentUTCTimed}`;
+    }
+
+    time()
+
+    setInterval(time,1000)
     track.textContent = "Frontend"
 });
